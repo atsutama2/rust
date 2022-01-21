@@ -2,7 +2,8 @@
 // mod vars;
 // mod ownership;
 // mod generics;
-mod lifetime;
+// mod lifetime;
+extern crate lib_demo;
 fn main() {
     // println!("Hello, world!");
     // vars::run();
@@ -14,6 +15,6 @@ fn main() {
 
     // generics::run();
 
-    lifetime::run();
-
+    // lifetime::run();
+    lib_demo::print_random_number();
 }
